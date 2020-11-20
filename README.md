@@ -4,13 +4,13 @@ Note for SQL practice
 ## LeetCode SQL
 [LeetCode SQL Problems](https://github.com/kamyu104/LeetCode-Solutions#sql)
 
-|  #  | Title           |  Solution       | Difficulty    |
-|-----|---------------- | --------------- | --------------- |
-0175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [MySQL](./LeetCode/combine-two-tables.sql) | Easy         |
-0176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [MySQL](./LeetCode/second-highest-salary.sql) | Easy         |
-0177 | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) | [Set Method](./LeetCode/nth-highest-salary-1.sql)/ [Window Function](./LeetCode/nth-highest-salary-2.sql)| Medium        |
-0178 | [Rank Scores](https://leetcode.com/problems/rank-scores/) | [MySQL](./LeetCode/rank-scores.sql) | Medium         |
-0180 | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | [MySQL](./LeetCode/consecutive-numbers.sql) | Medium         |
+|  #  | Title           |  Solution       | Difficulty    | Tag           |
+|-----|---------------- | --------------- | ------------- |---------------|
+0175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [MySQL](./LeetCode/combine-two-tables.sql) | Easy         ||
+0176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [MySQL](./LeetCode/second-highest-salary.sql) | Easy         ||
+0177 | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) | [Set Method](./LeetCode/nth-highest-salary-1.sql)/ [Window Function](./LeetCode/nth-highest-salary-2.sql)| Medium        |Window Function, Set|
+0178 | [Rank Scores](https://leetcode.com/problems/rank-scores/) | [MySQL](./LeetCode/rank-scores.sql) | Medium         ||
+0180 | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | [MySQL](./LeetCode/consecutive-numbers.sql) [WF+CTE](./LeetCode/consecutive-numbers-1.sql)| Medium         |Join, Window Function|
 
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
@@ -25,3 +25,9 @@ Note for SQL practice
 - DENSE_RANK() would still give all the identical rows a rank of 2, but the following row would be 3—no ranks would be skipped.
 - NTILE(*# of buckets*) : NTILE(4) quartile, NTILE(100) percentile
 - LAG/LEAD(): LAG or LEAD to create columns that pull values from other rows—all you need to do is enter which column to pull from and how many rows away you'd like to do the pull. LAG pulls from previous rows and LEAD pulls from following rows
+5. Common Table Expression (CTE)
+
+    `WITH cte_name (column_list) AS (
+        query
+    ) 
+    SELECT * FROM cte_name;`
