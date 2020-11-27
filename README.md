@@ -19,6 +19,13 @@ Note for SQL practice
 0196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | [MySQL](./LeetCode/delete-duplicate-emails.sql) | Easy         ||
 0197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | [MySQL](./LeetCode/rising-temperature.sql) | Easy         |Date|
 0262 | [Trips and Users](https://leetcode.com/problems/trips-and-users/) | [CASE](./LeetCode/trips-and-users.sql) | Hard         |CASE Statement|
+0511 | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | [MySQL](./LeetCode/game-play-analysis-i.sql) | Easy         |GROUP BY|
+0512 | [Game Play Analysis II](https://leetcode.com/problems/game-play-analysis-ii/) | [MySQL](./LeetCode/game-play-analysis-ii.sql) | Easy         |GROUP BY, WINDOW FUNCTION |
+0534 | [Game Play Analysis III](https://leetcode.com/problems/game-play-analysis-iii/) | [MySQL](./LeetCode/game-play-analysis-iii.sql) | Medium        |WINDOW FUNCTION |
+0550 | [Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) | [MySQL](./LeetCode/game-play-analysis-iv.sql) | Medium        |JOIN, GROUP BY|
+0569 | [Median Employee Salary](https://leetcode.com/problems/median-employee-salary/) | [WHERE+CASE](./LeetCode/median-employee-salary.sql) | Hard       |Find Median, CASE statement in WHERE|
+0570 | [Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) | [MySQL](./LeetCode/managers-with-at-least-5-direct-reports.sql) | Medium        |GROUP BY|
+0571 | [Find Median Given Frequency of Numbers](https://leetcode.com/problems/find-median-given-frequency-of-numbers/) | [MySQL](./LeetCode/find-median-given-frequency-of-numbers.sql) | Hard        |Median, WINDOW FUNCTION, CASE|
 
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
