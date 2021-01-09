@@ -33,6 +33,14 @@ Note for SQL practice
 0580 | [Count Student Number in Departments](https://leetcode.com/problems/count-student-number-in-departments/) | [MySQL](./LeetCode/count-student-number-in-departments.sql) | Medium        |JOIN|
 0584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [MySQL](./LeetCode/find-customer-referee.sql) | Easy         ||
 0585 | [Investments in 2016](https://leetcode.com/problems/investments-in-2016/) | [MySQL](./LeetCode/investments-in-2016.sql) | Medium         |GROUP BY *2, WINDOW FUNCTION|
+0586 | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [MySQL](./LeetCode/customer-placing-the-largest-number-of-orders.sql) | Easy         ||
+0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](./LeetCode/big-countries.sql) | Easy         ||
+0596 | [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | [MySQL](./LeetCode/classes-more-than-5-students.sql) | Easy         ||
+0597 | [Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/) | [MySQL](./LeetCode/friend-requests-i-overall-acceptance-rate.sql) | Easy         ||
+0601 | [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/) | [MySQL](./LeetCode/human-traffic-of-stadium.sql) | Hard        |WINDOW FUNCTION, CTE|
+0602 | [Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | [MySQL](./LeetCode/friend-requests-ii-who-has-the-most-friends.sql) | Medium        |UNION|
+0603 | [Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/) | [MySQL](./LeetCode/consecutive-available-seats.sql) | Easy         ||
+0607 | [Sales Person](https://leetcode.com/problems/sales-person/) | [MySQL](./LeetCode/sales-person.sql) | Easy         ||
 
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
@@ -85,9 +93,10 @@ frame_between: `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` (default)
 
 7. CASE Statement
 
-    - `CASE
+```CASE
     WHEN condition1 THEN result1
     WHEN condition2 THEN result2
     WHEN conditionN THEN resultN
     ELSE result
-END;`
+    END;
+```
