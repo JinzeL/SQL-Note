@@ -41,7 +41,11 @@ Note for SQL practice
 0602 | [Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | [MySQL](./LeetCode/friend-requests-ii-who-has-the-most-friends.sql) | Medium        |UNION|
 0603 | [Consecutive Available Seats](https://leetcode.com/problems/consecutive-available-seats/) | [MySQL](./LeetCode/consecutive-available-seats.sql) | Easy         ||
 0607 | [Sales Person](https://leetcode.com/problems/sales-person/) | [MySQL](./LeetCode/sales-person.sql) | Easy         ||
-
+0608 | [Tree Node](https://leetcode.com/problems/tree-node/) | [MySQL](./LeetCode/tree-node.sql) | Medium        |CASE|
+0610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | [MySQL](./LeetCode/triangle-judgement.sql) | Easy         ||
+0612 | [Shortest Distance in a Plane](https://leetcode.com/problems/shortest-distance-in-a-plane/) | [MySQL](./LeetCode/shortest-distance-in-a-plane.sql) | Medium        | WHERE NOT|
+0613 | [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/) | [MySQL](./LeetCode/shortest-distance-in-a-line.sql) | Easy         ||
+0614 | [Second Degree Follower](https://leetcode.com/problems/second-degree-follower/) | [MySQL](./LeetCode/second-degree-follower.sql) | Medium        ||
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
 2. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
