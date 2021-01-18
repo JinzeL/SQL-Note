@@ -51,6 +51,8 @@ Note for SQL practice
 0619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | [MySQL](./LeetCode/biggest-single-number.sql) | Easy         ||
 0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](./LeetCode/not-boring-movies.sql) | Easy         ||
 0626 | [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | [MySQL](./LeetCode/exchange-seats.sql) | Medium        ||
+0627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](./LeetCode/swap-salary.sql) | Easy         | UPDATE + CASE|
+
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
 2. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
@@ -122,10 +124,19 @@ frame_between: `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` (default)
 
 7. CASE Statement
 
-```CASE
+```
+    CASE
     WHEN condition1 THEN result1
     WHEN condition2 THEN result2
     WHEN conditionN THEN resultN
     ELSE result
     END;
 ```
+8. UPDATE
+
+```
+    UPDATE table_name
+    SET column1 = value1, column2 = value2, ...
+    WHERE condition;
+```
+Could use CASE function as condition in SET
