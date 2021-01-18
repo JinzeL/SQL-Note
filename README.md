@@ -46,6 +46,11 @@ Note for SQL practice
 0612 | [Shortest Distance in a Plane](https://leetcode.com/problems/shortest-distance-in-a-plane/) | [MySQL](./LeetCode/shortest-distance-in-a-plane.sql) | Medium        | WHERE NOT|
 0613 | [Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/) | [MySQL](./LeetCode/shortest-distance-in-a-line.sql) | Easy         ||
 0614 | [Second Degree Follower](https://leetcode.com/problems/second-degree-follower/) | [MySQL](./LeetCode/second-degree-follower.sql) | Medium        ||
+0615 | [Average Salary: Departments VS Company](https://leetcode.com/problems/average-salary-departments-vs-company/) | [MySQL](./LeetCode/average-salary-departments-vs-company.sql) | Hard        |WINDOW FUNCTION, CASE, DATE FORMAT|
+0618 | [Students Report By Geography](https://leetcode.com/problems/students-report-by-geography/) | [MySQL](./LeetCode/students-report-by-geography.sql) | Hard        |WINDOW FUNCTION, CASE, PIVOT|
+0619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | [MySQL](./LeetCode/biggest-single-number.sql) | Easy         ||
+0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](./LeetCode/not-boring-movies.sql) | Easy         ||
+0626 | [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | [MySQL](./LeetCode/exchange-seats.sql) | Medium        ||
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
 2. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
@@ -94,6 +99,26 @@ frame_between: `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` (default)
 6. Date function
 
     - `DATEDIFF(date1, date2)` : difference of date1 - date2
+    - `EXTRACT(unit FROM date)` : extract part of date
+    ``` 
+    mysql> SELECT EXTRACT(YEAR FROM '2019-07-02');
+        -> 2019
+    mysql> SELECT EXTRACT(YEAR_MONTH FROM '2019-07-02 01:02:03');
+        -> 201907
+    mysql> SELECT EXTRACT(DAY_MINUTE FROM '2019-07-02 01:02:03');
+        -> 20102
+    mysql> SELECT EXTRACT(MICROSECOND FROM '2003-01-02 10:30:00.000123');
+        -> 123
+    ```
+    - `DATE_FORMAT()` : returns a string with a character set
+    ```
+    mysql> SELECT DATE_FORMAT('2009-10-04 22:23:00', '%W %M %Y');
+        -> 'Sunday October 2009'
+    mysql> SELECT DATE_FORMAT('2007-10-04 22:23:00', '%H:%i:%s');
+        -> '22:23:00'
+    mysql> SELECT DATE_FORMAT('1900-10-04 22:23:00','%D %y %a %d %m %b %j');
+        -> '4th 00 Thu 04 10 Oct 277'
+    ```
 
 7. CASE Statement
 
