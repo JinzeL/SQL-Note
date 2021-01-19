@@ -52,7 +52,18 @@ Note for SQL practice
 0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](./LeetCode/not-boring-movies.sql) | Easy         ||
 0626 | [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | [MySQL](./LeetCode/exchange-seats.sql) | Medium        ||
 0627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](./LeetCode/swap-salary.sql) | Easy         | UPDATE + CASE|
-
+1045 | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/ | [MySQL](./LeetCode/customers-who-bought-all-products.sql) | Medium        ||
+1050 | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [MySQL](./LeetCode/actors-and-directors-who-cooperated-at-least-three-times.sql) | Easy         ||
+1068 | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./LeetCode/problems/product-sales-analysis-i.sql) | Easy         ||
+1069 | [Product Sales Analysis II](https://leetcode.com/problems/product-sales-analysis-ii/) | [MySQL](./LeetCode/problems/product-sales-analysis-ii.sql) | Easy         ||
+1070 | [Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/) | [MySQL](./LeetCode/product-sales-analysis-iii.sql) | Medium        ||
+1075 | [Project Employees I](https://leetcode.com/problems/project-employees-i/) | [MySQL](./LeetCode/problems/project-employees-i.sql) | Easy         ||
+1076 | [Project Employees II](https://leetcode.com/problems/project-employees-ii/) | [MySQL](./LeetCode/problems/project-employees-ii.sql) | Easy         ||
+1077 | [Project Employees III](https://leetcode.com/problems/project-employees-iii/) | [MySQL](./LeetCode/problems/project-employees-iii.sql) | Medium         |WINDOW FUNCTION|
+1082 | [Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/) | [MySQL](./LeetCode/problems/sales-analysis-i.sql) | Easy         |CTE|
+1083 | [Sales Analysis II](https://leetcode.com/problems/sales-analysis-ii/) | [MySQL](./LeetCode/problems/sales-analysis-ii.sql) | Easy         ||
+1084 | [Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | [MySQL](./LeetCode/problems/sales-analysis-iii.sql) | Easy         ||
+1097 | [Game Play Analysis V](https://leetcode.com/problems/game-play-analysis-v/) | [MySQL](./LeetCode/problems/game-play-analysis-v.sql) | Hard         |GROUP BY, CASE WHEN|
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
 2. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
