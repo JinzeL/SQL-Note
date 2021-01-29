@@ -52,7 +52,7 @@ Note for SQL practice
 0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](./LeetCode/not-boring-movies.sql) | Easy         ||
 0626 | [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | [MySQL](./LeetCode/exchange-seats.sql) | Medium        ||
 0627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](./LeetCode/swap-salary.sql) | Easy         | UPDATE + CASE|
-1045 | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/ | [MySQL](./LeetCode/customers-who-bought-all-products.sql) | Medium        ||
+1045 | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | [MySQL](./LeetCode/customers-who-bought-all-products.sql) | Medium        ||
 1050 | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | [MySQL](./LeetCode/actors-and-directors-who-cooperated-at-least-three-times.sql) | Easy         ||
 1068 | [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/) | [MySQL](./LeetCode/problems/product-sales-analysis-i.sql) | Easy         ||
 1069 | [Product Sales Analysis II](https://leetcode.com/problems/product-sales-analysis-ii/) | [MySQL](./LeetCode/problems/product-sales-analysis-ii.sql) | Easy         ||
@@ -64,6 +64,8 @@ Note for SQL practice
 1083 | [Sales Analysis II](https://leetcode.com/problems/sales-analysis-ii/) | [MySQL](./LeetCode/problems/sales-analysis-ii.sql) | Easy         ||
 1084 | [Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | [MySQL](./LeetCode/problems/sales-analysis-iii.sql) | Easy         ||
 1097 | [Game Play Analysis V](https://leetcode.com/problems/game-play-analysis-v/) | [MySQL](./LeetCode/problems/game-play-analysis-v.sql) | Hard         |GROUP BY, CASE WHEN|
+1098 | [Unpopular Books](https://leetcode.com/problems/unpopular-books/) | [MySQL](./LeetCode/problems/unpopular-books.sql) | Medium         |CTE, TIMESTAMPDIFF|
+1107 | [New Users Daily Count](https://leetcode.com/problems/new-users-daily-count/) | [MySQL](./LeetCode/problems/new-users-daily-count.sql) | Medium         |CTE, WINDOW FUNCTION, COUNT DISTINCT|
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
 2. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
@@ -112,7 +114,9 @@ frame_between: `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` (default)
 6. Date function
 
     - `DATEDIFF(date1, date2)` : difference of date1 - date2
+    - `TIMESTAMPDIFF(FORMAT, date1, date2)`: difference of date2 - date1 in format: SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, or YEAR.
     - `EXTRACT(unit FROM date)` : extract part of date
+
     ``` 
     mysql> SELECT EXTRACT(YEAR FROM '2019-07-02');
         -> 2019
