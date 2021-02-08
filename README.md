@@ -66,6 +66,10 @@ Note for SQL practice
 1097 | [Game Play Analysis V](https://leetcode.com/problems/game-play-analysis-v/) | [MySQL](./LeetCode/problems/game-play-analysis-v.sql) | Hard         |GROUP BY, CASE WHEN|
 1098 | [Unpopular Books](https://leetcode.com/problems/unpopular-books/) | [MySQL](./LeetCode/problems/unpopular-books.sql) | Medium         |CTE, TIMESTAMPDIFF|
 1107 | [New Users Daily Count](https://leetcode.com/problems/new-users-daily-count/) | [MySQL](./LeetCode/problems/new-users-daily-count.sql) | Medium         |CTE, WINDOW FUNCTION, COUNT DISTINCT|
+1112 | [Highest Grade For Each Student](https://leetcode.com/problems/highest-grade-for-each-student/) | [MySQL](./LeetCode/problems/highest-grade-for-each-student.sql) | Medium         |2 group by|
+1113 | [Reported Posts](https://leetcode.com/problems/reported-posts/) | [MySQL](./LeetCode/problems/reported-posts.sql) | Easy         ||
+1126 | [Active Businesses](https://leetcode.com/problems/active-businesses/) | [MySQL](./LeetCode/problems/active-businesses.sql) | Medium         |WF|
+
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
 2. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
