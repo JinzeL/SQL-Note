@@ -69,7 +69,7 @@ Note for SQL practice
 1112 | [Highest Grade For Each Student](https://leetcode.com/problems/highest-grade-for-each-student/) | [MySQL](./LeetCode/problems/highest-grade-for-each-student.sql) | Medium         |2 group by|
 1113 | [Reported Posts](https://leetcode.com/problems/reported-posts/) | [MySQL](./LeetCode/problems/reported-posts.sql) | Easy         ||
 1126 | [Active Businesses](https://leetcode.com/problems/active-businesses/) | [MySQL](./LeetCode/problems/active-businesses.sql) | Medium         |WF|
-
+1729 | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [MySQL](./LeetCode/problems/find-followers-count.sql) | Easy         ||
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
 2. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
