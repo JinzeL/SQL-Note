@@ -70,6 +70,27 @@ Note for SQL practice
 1113 | [Reported Posts](https://leetcode.com/problems/reported-posts/) | [MySQL](./LeetCode/problems/reported-posts.sql) | Easy         ||
 1126 | [Active Businesses](https://leetcode.com/problems/active-businesses/) | [MySQL](./LeetCode/problems/active-businesses.sql) | Medium         |WF|
 1729 | [Find Followers Count](https://leetcode.com/problems/find-followers-count/) | [MySQL](./LeetCode/problems/find-followers-count.sql) | Easy         ||
+2084 | [Drop Type 1 Orders for Customers With Type 0 Orders](https://leetcode.com/problems/drop-type-1-orders-for-customers-with-type-0-orders) | [MySQL](./LeetCode/problems/drop-type-1-orders-for-customers-with-type-0-orders.sql) | Medium         ||
+2112 | [The Airport With the Most Traffic](https://leetcode.com/problems/the-airport-with-the-most-traffic) | [MySQL](./LeetCode/problems/the-airport-with-the-most-traffic.sql) | Medium         ||
+2142 | [The Number of Passengers in Each Bus I](https://leetcode.com/problems/the-number-of-passengers-in-each-bus-i) | [MySQL](./LeetCode/problems/the-number-of-passengers-in-each-bus-i.sql) | Medium         ||
+2159 | [Order Two Columns Independently](https://leetcode.com/problems/order-two-columns-independently) | [MySQL](./LeetCode/problems/order-two-columns-independently.sql) | Medium         ||
+2228 | [ Users With Two Purchases Within Seven Days](https://leetcode.com/problems/users-with-two-purchases-within-seven-days) | [MySQL](./LeetCode/problems/users-with-two-purchases-within-seven-days.sql) | Medium         ||
+2238 | [ Number of Times a Driver Was a Passenger](https://leetcode.com/problems/number-of-times-a-driver-was-a-passenger) | [MySQL](./LeetCode/problems/number-of-times-a-driver-was-a-passenger.sql) | Medium         ||
+2292 | [Products With Three or More Orders in Two Consecutive Years](https://leetcode.com/problems/products-with-three-or-more-orders-in-two-consecutive-years) | [MySQL](./LeetCode/problems/products-with-three-or-more-orders-in-two-consecutive-years.sql) | Medium         ||
+2298 | [Tasks Count in the Weekend](https://leetcode.com/problems/tasks-count-in-the-weekend) | [MySQL](./LeetCode/problems/tasks-count-in-the-weekend.sql) | Medium         ||
+2308 | [Arrange Table by Gender](https://leetcode.com/problems/arrange-table-by-gender) | [MySQL](./LeetCode/problems/arrange-table-by-gender.sql) | Medium         ||
+2314 | [The First Day of the Maximum Recorded Degree in Each City](https://leetcode.com/problems/the-first-day-of-the-maximum-recorded-degree-in-each-city) | [MySQL](./LeetCode/problems/the-first-day-of-the-maximum-recorded-degree-in-each-city.sql) | Medium         ||
+2324 | [Product Sales Analysis IV](https://leetcode.com/problems/product-sales-analysis-iv/) | [MySQL](./LeetCode/problems/product-sales-analysis-iv.sql) | Medium         ||
+2329 | [Product Sales Analysis V](https://leetcode.com/problems/product-sales-analysis-v/) | [MySQL](./LeetCode/product-sales-analysis-v.sql) | Easy         ||
+2339 | [All the Matches of the League](https://leetcode.com/problems/all-the-matches-of-the-league/) | [MySQL](./LeetCode/all-the-matches-of-the-league.sql) | Easy         ||
+2346 | [Compute the Rank as a Percentage](https://leetcode.com/problems/compute-the-rank-as-a-percentage/) | [MySQL](./LeetCode/problems/compute-the-rank-as-a-percentage.sql) | Medium         ||
+2356 | [Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | [MySQL](./LeetCode/number-of-unique-subjects-taught-by-each-teacher.sql) | Easy         ||
+2362 | [Generate the Invoice](https://leetcode.com/problems/generate-the-invoice/) | [MySQL](./LeetCode/problems/generate-the-invoice.sql) | Hard         ||
+2372 | [Calculate the Influence of Each Salesperson](https://leetcode.com/problems/calculate-the-influence-of-each-salesperson/) | [MySQL](./LeetCode/problems/calculate-the-influence-of-each-salesperson.sql) | Medium         ||
+2377 | [Sort the Olympic Table](https://leetcode.com/problems/sort-the-olympic-table/) | [MySQL](./LeetCode/problems/sort-the-olympic-table.sql) | Easy         ||
+2388 | [Change Null Values in a Table to the Previous Value](https://leetcode.com/problems/change-null-values-in-a-table-to-the-previous-value/) | [MySQL](./LeetCode/problems/change-null-values-in-a-table-to-the-previous-value.sql) | Medium         ||
+2394 | [Employees With Deductions](https://leetcode.com/problems/employees-with-deductions/) | [MySQL](./LeetCode/problems/employees-with-deductions.sql) | Medium         ||
+
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
 2. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
