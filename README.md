@@ -93,9 +93,10 @@ Note for SQL practice
 
 ### Notes
 1. Thinking about when should use 'DISTICT' in SELECT satement
-2. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
-3. Set Method
-4. Window Fuction - [link](https://mode.com/sql-tutorial/sql-window-functions/)
+2. Limit 2,3: offset 2 and then limit 3, which means limit 3 from 3rd row
+3. `SELECT () AS ...` Should be used one more time outsied the main SELECT when 'null' is needed to output
+4. Set Method
+5. Window Fuction - [link](https://mode.com/sql-tutorial/sql-window-functions/)
     ```
    window_function_name(expression) OVER ( 
    [partition_defintion]
@@ -128,6 +129,9 @@ frame_between: `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` (default)
 - frame_start: as mentioned previously.
 - `UNBOUNDED FOLLOWING` the frame ends at the final row in the partition.
 - `N FOLLOWING` a physical N of rows after the current row.
+
+- ROWS BETWEEN: It defines the window based on the physical position of the rows above or below relative to the current row.
+- RANGE BETWEEN: It defines the window based on the logical relationship based on the column.
 
 5. Common Table Expression (CTE)
     ```
